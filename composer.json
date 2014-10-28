@@ -1,5 +1,5 @@
 {
-    "name": "mw/shortcode-bundle",
+    "name": "drinky78/shortcode-bundle",
     "description": "Bundle that provides a Twig filter to support WordPress-like shortcodes.",
     "keywords": ["shortcode"],
     "type": "symfony-bundle",
@@ -8,6 +8,10 @@
         {
             "name": "Michel Weimerskirch",
             "email": "michel@weimerskirch.net"
+        },
+        {
+            "name": "Marco Radossi",
+            "email": "marco.radossi@gmail.com"
         }
     ],
     "require": {
@@ -16,8 +20,8 @@
     },
     "autoload": {
         "psr-0": {
-            "MW\\Bundle\\ShortcodeBundle": ""
+            "drinky78\\Bundle\\ShortcodeBundle": ""
         }
     },
-    "target-dir": "MW/Bundle/ShortcodeBundle"
+    "target-dir": "drinky78/Bundle/ShortcodeBundle"
 }
