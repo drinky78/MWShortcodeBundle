@@ -1,17 +1,17 @@
 <?php
 
-namespace MW\Bundle\ShortcodeBundle;
+namespace drinky78\Bundle\ShortcodeBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use MW\Bundle\ShortcodeBundle\DependencyInjection\Compiler\ShortcodePass;
+use drinky78\Bundle\ShortcodeBundle\DependencyInjection\Compiler\ShortcodePass;
 
 /**
  * 
  *
  * @author Michel Weimerskirch
  */
-class MWShortcodeBundle extends Bundle
+class ShortcodeBundle extends Bundle
 {
 
     public function build(ContainerBuilder $container)
