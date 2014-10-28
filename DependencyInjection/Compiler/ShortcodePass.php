@@ -1,6 +1,6 @@
 <?php
 
-namespace MW\Bundle\ShortcodeBundle\DependencyInjection\Compiler;
+namespace drinky78\Bundle\ShortcodeBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Reference;
@@ -17,7 +17,7 @@ class ShortcodePass implements CompilerPassInterface
     public function process(ContainerBuilder $container)
     {
         $definition = $container->getDefinition('templating.helper.shortcode');
-        foreach ($container->findTaggedServiceIds('mw.shortcode') as $id => $tagAttributes) {
+        foreach ($container->findTaggedServiceIds('drinky78.shortcode') as $id => $tagAttributes) {
             foreach ($tagAttributes as $attributes) {
                 $definition->addMethodCall('addShortcodeType', array($attributes['alias'], new Reference($id)));
             }

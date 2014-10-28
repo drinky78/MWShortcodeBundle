@@ -1,6 +1,6 @@
 <?php
 
-namespace MW\Bundle\ShortcodeBundle\Shortcode;
+namespace drinky78\Bundle\ShortcodeBundle\Shortcode;
 
 /**
  * 

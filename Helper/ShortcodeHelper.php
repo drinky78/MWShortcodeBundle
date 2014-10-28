@@ -1,6 +1,6 @@
 <?php
 
-namespace MW\Bundle\ShortcodeBundle\Helper;
+namespace drinky78\Bundle\ShortcodeBundle\Helper;
 
 use Symfony\Component\Templating\Helper\HelperInterface;
 

@@ -13,12 +13,12 @@ Not yet supported are:
 ###Installation
 
 
-Add MWShortcodeBundle in your composer.json:
+Add ShortcodeBundle in your composer.json:
 
 ```
 {
     "require": {
-        "mw/shortcode-bundle": "dev-master"
+        "drinky78/shortcode-bundle": "dev-master"
     }
 }
 ```

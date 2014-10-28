@@ -1,8 +1,8 @@
 <?php
 
-namespace MW\Bundle\ShortcodeBundle\Twig\Extension;
+namespace drinky78\Bundle\ShortcodeBundle\Twig\Extension;
 
-use MW\Bundle\ShortcodeBundle\Helper\ShortcodeHelper;
+use drinky78\Bundle\ShortcodeBundle\Helper\ShortcodeHelper;
 
 /**
  * 

@@ -1,6 +1,6 @@
 <?php
 
-namespace MW\Bundle\ShortcodeBundle\DependencyInjection;
+namespace drinky78\Bundle\ShortcodeBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -12,7 +12,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
  *
  * @author Michel Weimerskirch
  */
-class MWShortcodeExtension extends Extension
+class ShortcodeExtension extends Extension
 {
 
     public function load(array $configs, ContainerBuilder $container)
